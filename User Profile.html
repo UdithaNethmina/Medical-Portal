@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="User prof.css">
+    <link rel="icon" type="image/x-icon" href="MEDIZONE.ico">
+</head>
+<body>  
+    <header>
+    <div><img class = "logo" src = "images/LOGO MEDIZONE.png" alt = "This is a logo" height = "100px" width = "100px"></div>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li>
+          <a href="#">Places</a>
+          <ul class="submenu">
+            <li><a href="Medical center.html">Medical Center</a></li>
+            <li><a href="Hospital.html">Hospitals</a></li>
+          </ul>
+        <li><a href="Specialization.html">Doctors</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+      </ul>
+    </nav>
+    <div class="login-signup">
+      <a href="Sign In.html">
+        <button class="login">Login</button>
+      </a>
+      <a href="Sign Up.html">
+        <button class="signup">Sign up</button>
+      </a>
+      
+    </div>
+  </header>
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>User Profile Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="User prof.css">
+  </head>
+  <body>
+    <header>
+      <!-- Add header content here -->
+    </header>
+  
+    <div class="container">
+      <aside>
+        <ul>
+          <li><a href="#">Username</a></li>
+          <li><a href="#">Appointment History</a></li>
+          <li><a href="#">Make Appointment</a></li>
+          <li><a href="Specialization.html">Doctors</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </aside>
+  
+      <main>
+        <h1>User Profile</h1>
+        <div class="profile">
+          <img src="images/user.png" alt="Profile Image">
+          <input type="file" id="profileImage" name="profileImage">
+          <br>
+          <label for="profileImage">Upload Image</label>
+      </div>
+        <h2>Welcome, [Username]</h2>
+
+      <br>
+
+        <h3>My Profile</h3>
+
+        <form action="update_profile.php" method="post">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+  
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+  
+          <label for="phoneNumber">Phone Number:</label>
+          <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" required>
+  
+          <label for="nic">NIC/Passport:</label>
+          <input type="text" id="nic" name="nic" placeholder="NIC/Passport" required>
+  
+          <input type="submit" id="submitc" value= "Update Profile" >
+        </form>
+  
+        <h3>Change Password</h3>
+        <form action="change_password.php" method="post">
+          <label for="currentPassword">Current Password:</label>
+          <input type="password" id="currentPassword" name="currentPassword" placeholder="Current Password" required>
+  
+          <label for="newPassword">New Password:</label>
+          <input type="password" id="newPassword" name="newPassword" placeholder="New Password" required>
+  
+          <label for="confirmPassword">Confirm Password:</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+  
+          <input type="submit" id="submitc" value="Change Password">
+        </form>
+      </main>
+    </div>
+  </body>
+  </html>
+  
+  <br>
+
+  <footer>
+<div class="social-media">
+      <a href="#" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="#" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+      <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+</div>
+    <br>
+<div class="footer-links">
+      <a href="contactus.php">Contact Us</a>
+      <a href="Terms and Conditions.html">Terms and Conditions</a>  
+      <a href="Privacy policy.html">Privacy Policy</a>
+</div>
+    <br>
+
+<div class="footer-bottom">
+      <p>Copyright &copy; 2023 Designed by<span> M_L_B_15.2_07</span></p>
+</div>
+  </footer>
+</body>
+</html>
+
+
